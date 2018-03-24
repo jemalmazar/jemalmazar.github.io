@@ -29,7 +29,7 @@ html {
 }
 
 .icons-social i {
-	font-size: 3em;
+	font-size: 1.5em;
 }
 
 /* Custom Styles */
@@ -37,6 +37,8 @@ html {
 main {
 	display: flex;
 	flex-direction: column;
+	background-color: #09090F;
+	color: #8B90FA;
 	min-height: 100vh;
 	justify-content: center;
 	padding: 0 30px;
@@ -58,6 +60,19 @@ main > .tagline {
 .icons-social i {
 	padding: 10px;
 }
+
+.icons-social a {
+	color: #8B90FA;
+	text-decoration: none; 
+}
+
+.icons-social a:hover {
+	color: #738BE3;
+}
+
+/* .icons-social a svg path{
+	fill: #8B90FA;
+} */
 
 .devto {
 	margin-bottom: -0.20rem;
